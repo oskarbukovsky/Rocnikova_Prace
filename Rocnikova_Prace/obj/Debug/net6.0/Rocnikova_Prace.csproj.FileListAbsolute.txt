@@ -1,0 +1,17 @@
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Rocnikova_Prace.exe
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Rocnikova_Prace.deps.json
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Rocnikova_Prace.runtimeconfig.json
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Rocnikova_Prace.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\ref\Rocnikova_Prace.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Rocnikova_Prace.pdb
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\CommandLine.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.AssemblyInfoInputs.cache
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.AssemblyInfo.cs
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.csproj.CoreCompileInputs.cache
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.csproj.CopyComplete
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\ref\Rocnikova_Prace.dll
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.pdb
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.genruntimeconfig.cache
