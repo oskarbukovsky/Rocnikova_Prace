@@ -1068,7 +1068,7 @@ namespace Application
                                     }
                                     catch
                                     {
-                                        Console.WriteLine("Erros!!§");
+                                        Console.WriteLine("Errors!!§");
                                     }
                                     if (result == true)
                                     {
@@ -1092,7 +1092,7 @@ namespace Application
                                     //System.Diagnostics.Debugger.Break();
                                     break;
                                 }
-                                Thread.Sleep(5);
+                                Thread.Sleep(100);
                             }
                         });
                         break;
