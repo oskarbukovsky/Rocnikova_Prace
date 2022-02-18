@@ -15,3 +15,4 @@ C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Roc
 C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\ref\Rocnikova_Prace.dll
 C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.pdb
 C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.genruntimeconfig.cache
+C:\Users\Oskar\source\repos\Rocnikova_Prace\Rocnikova_Prace\obj\Debug\net6.0\Rocnikova_Prace.csproj.AssemblyReference.cache

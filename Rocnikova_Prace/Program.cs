@@ -1004,12 +1004,6 @@ namespace Application
 
             //MergeSort.Sort(Numbers, 0, Numbers.Length - 1);
 
-            Console.WriteLine("\nFirst {0} sorted numbers:", ShowNumbers);
-            for (int i = 0; i < Numbers.Length && i < ShowNumbers; i++)
-            {
-                Console.Write(Numbers[i] + " ");
-            }
-            Console.WriteLine("#");
             //System.Diagnostics.Debugger.Break();
         }
 
@@ -1017,7 +1011,7 @@ namespace Application
         public static void Controll()
         {
             Thread.Sleep(300);
-            Console.WriteLine("Press [S] to start processing random numbers.");
+            Console.WriteLine("Press [S] to start processing random numbers. Than [C] to connect to some node and send him work and wait for result.");
             while (true)
             {
                 switch (Console.ReadKey(true).Key)
@@ -1025,9 +1019,11 @@ namespace Application
                     case ConsoleKey.S:
                         Sort();
                         break;
+
                     case ConsoleKey.D:
                         System.Diagnostics.Debugger.Break();
                         break;
+
                     case ConsoleKey.H:
                         Console.WriteLine();
                         foreach (var i in Udp.KnownServers.Servers)
@@ -1036,6 +1032,7 @@ namespace Application
                         }
                         Console.WriteLine("-----------");
                         break;
+
                     case ConsoleKey.T:
                         string[] tmp = new string[Global.ValidTokens.Count];
                         Global.ValidTokens.CopyTo(tmp);
@@ -1045,6 +1042,7 @@ namespace Application
                             Console.WriteLine(" {0} - {1}", token.Substring(0, 8), token.Substring(8));
                         }
                         break;
+
                     case ConsoleKey.C:
                         Task.Run(() =>
                         {
@@ -1098,8 +1096,10 @@ namespace Application
                             }
                         });
                         break;
+
                     case ConsoleKey.Q:
                         return;
+
                     default:
                         //Sleep function to aware fast cpu intensive loops
                         Thread.Sleep(5);
