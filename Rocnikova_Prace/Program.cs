@@ -25,7 +25,6 @@
  * SOFTWARE.
  */
 
-
 //Import important libraries
 using Newtonsoft.Json;
 using System;
@@ -225,12 +224,10 @@ namespace Application
 
                     //Actual listenning part of code
                     byte[] RecievedBytes = listener.Receive(ref EndPoint);
-
                     if (DEBUG == true)
                     {
                         Console.WriteLine($"\nReceived broadcast from {EndPoint}:");
                     }
-                    //Console.WriteLine("\nRaw input:\n" + string.Join(" ", RecievedBytes));
 
                     //Convert recieved message to object
                     var tmp = Newtonsoft.Json.JsonConvert.DeserializeObject<BroadcastMessage>(Encoding.UTF8.GetString(RecievedBytes, 0, RecievedBytes.Length));
@@ -277,7 +274,6 @@ namespace Application
                                 KnownServers.Servers.First(host => host.Hostname == tmp.Hostname).ValidTokens = new List<string> { "0" };
                             }
                         }
-
                         if (DEBUG == true)
                         {
                             Console.WriteLine("Decoded: \n" + Global.RecieveMessages.Last());
@@ -322,7 +318,6 @@ namespace Application
                 AvailablePorts = Global.Ports.Skip(1).Where(port => port.Promiss == true).Select(port => port.Number).ToArray()
             });
             SendBroadcastMessage(ref Broadcast, Global.SendMessages.Last());
-
             if (DEBUG == true)
             {
                 Console.WriteLine("MsgToSend:\n" + Global.SendMessages.Last());
@@ -361,9 +356,9 @@ namespace Application
                     AvailablePorts = Global.Ports.Skip(1).Where(port => port.Promiss == true).Select(port => port.Number).ToArray(),
                     Message = String.Empty
                 });
+
                 //Calling sending method with actual status
                 SendBroadcastMessage(ref Broadcast, Global.SendMessages.Last());
-
                 if (DEBUG == true)
                 {
                     Console.WriteLine("MsgToSend:\n" + Global.SendMessages.Last());
@@ -374,7 +369,6 @@ namespace Application
                     }
                     Console.WriteLine("Message sent to the broadcast address!\n");
                 }
-
                 //Sleep function to aware fast cpu intensive loops and didnt overwhelm network
                 Thread.Sleep(2000);
             }
@@ -792,7 +786,6 @@ namespace Application
             {
                 stringBuilder.Append(b.ToString("x2"));
             }
-
             return stringBuilder.ToString();
         }
     }
@@ -1001,14 +994,12 @@ namespace Application
             {
                 Numbers[i] = rand.Next(0, 1000000);
             }
-
             Console.WriteLine("\nFirst {0} numbers:", ShowNumbers);
             for (int i = 0; i < Numbers.Length && i < ShowNumbers; i++)
             {
                 Console.Write(Numbers[i] + " ");
             }
             Console.WriteLine("#");
-
             Global.Works.Add(new MergeSort.ToSort(Numbers));
 
             //MergeSort.Sort(Numbers, 0, Numbers.Length - 1);
@@ -1019,7 +1010,6 @@ namespace Application
                 Console.Write(Numbers[i] + " ");
             }
             Console.WriteLine("#");
-
             //System.Diagnostics.Debugger.Break();
         }
 
@@ -1082,7 +1072,6 @@ namespace Application
                                     {
                                         Console.WriteLine("Erros!!§");
                                     }
-
                                     if (result == true)
                                     {
                                         Task.Run(() =>
