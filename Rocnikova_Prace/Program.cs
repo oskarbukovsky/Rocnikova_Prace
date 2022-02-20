@@ -2,7 +2,7 @@
  * @description First release version of NetOS
  * @author Jan Oskar Bukovský <janoskarbukovsky@gmail.com & bukovsky@gchd.cz>
  * @copyright Jan Oskar Bukovský 2021
- * @supported {{.NET SDKs installed: 6.0.101}, [Bìhové prostøedí: OS Name: raspbian, OS Version: 10, OS Platform: Linux, RID: linux-arm], [Bìhové prostøedí: OS Name: Windows, OS Version:, 10.0.19042, OS Platform: Windows, RID: win10-x64]}
+ * @supported {{.NET SDKs installed: 6.0.101}, [Bìhové prostøedí: OS Name: raspbian, OS Version: 10, OS Platform: Linux, RID: linux-arm], [Bìhové prostøedí: OS Name: Windows, OS Version:, 10.0.19042, OS Platform: Windows, RID: win10-x64/win10-x86]}
  * @version 1.0
  * @since 09.02.2022
  * @license MIT 
@@ -1092,7 +1092,7 @@ namespace Application
                                     //System.Diagnostics.Debugger.Break();
                                     break;
                                 }
-                                Thread.Sleep(100);
+                                Thread.Sleep(150);
                             }
                         });
                         break;
